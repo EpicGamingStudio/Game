@@ -58,3 +58,14 @@ const auth = getAuth(app); // Initialize Firebase Authentication
 
 // You can now use `database` and `auth` for your app's functionality
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA8LPmmQktqITK6PhkVBCb51JGqEi6rHZA",
+  authDomain: "gamedata-efb77.firebaseapp.com",
+  databaseURL: "https://gamedata-efb77-default-rtdb.firebaseio.com",
+  projectId: "gamedata-efb77",
+  storageBucket: "gamedata-efb77.appspot.com",
+  messagingSenderId: "452569523584",
+  appId: "1:452569523584:web:b607d5af9030d3d0fc0d65",
+  measurementId: "G-KEL28FPJMN"
+};
